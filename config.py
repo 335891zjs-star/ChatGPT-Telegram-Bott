@@ -21,7 +21,7 @@ RESET_TIME = int(os.environ.get('RESET_TIME', '3600'))
 if RESET_TIME < 60:
     RESET_TIME = 60
 
-BASE_URL = os.environ.get('BASE_URL', 'https://api.openai.com/v1/chat/completions')
+BASE_URL = os.environ.get('BASE_URL', 'https://api.aipaibox.com/v1/chat/completions')
 API_KEY = os.environ.get('API_KEY', None)
 MODEL = os.environ.get('MODEL', 'gpt-5')
 
